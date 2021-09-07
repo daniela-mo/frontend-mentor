@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@mixin classic-text {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: $neutral-Grayish-Blue
+  }
+
+@mixin price-tag {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    color: $neutral-Dark-Desaturated-Blue;
+}
+
+@mixin per-month {
+    padding-left: .8rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: $neutral-Grayish-Blue;
+}
+
+@mixin price-discount {
+    margin-right: 0rem;
+    color: $primary-Light-Red;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+    padding: .3rem .7rem;
+    background-color: $primary-light-Grayish-Red;
+    border-radius: .95rem;
+}
