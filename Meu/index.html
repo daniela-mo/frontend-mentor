@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="index.js" defer></script>
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+
+<body>
+  <main>
+    <section class="title">
+      <h1>Simple, traffic-based pricing</h1>
+      <h3>Sign-up for our 30-day trial. No credit card required.</h3>
+      <svg class="title__bg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="146" height="145">
+        <g fill="none" fill-rule="evenodd" stroke="#CFD8EF">
+          <circle cx="63" cy="82" r="62.5" />
+          <circle cx="105" cy="41" r="40.5" />
+        </g>
+      </svg>
+    </section>
+
+    <div class="toggle">
+
+      <div class="toggle__title">
+        <h5 id="output-number"></h5>
+        <div class="toggle__per-month">
+          <span id="output-price">$</span>
+          <p>/ month</p>
+        </div>
+      </div>
+
+      <div class="toggle__slider-container">
+        <input type="range" min="0" max="200" step="1" value="100" data-color="red" class="toggle__slider" id="slider">
+      </div>
+
+      <div class="toggle__per-month-mobile">
+        <span id="output-price-mobile">$</span>
+        <p>/ month</p>
+      </div>
+
+      <div class="toggle__price-information">
+        <p class="classic-text">Monthly Billing</p>
+        <label class="toggle__switch">
+          <input id="checkbox-toggle" type="checkbox">
+          <span class="toggle__switch--white-slider"></span>
+        </label>
+        <p class="classic-text">Yearly Billing</p>
+        <p class="toggle__price-discount">25% discount</p>
+        <p class="toggle__price-discount-mobile">-25%</p>
+      </div>
+
+      <div class="toggle__footer">
+        <ul>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+              <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+            </svg>
+            Unlimited websites
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+              <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+            </svg>
+            100% data ownership
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+              <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+            </svg>
+            Email reports
+          </li>
+        </ul>
+        <button class="toggle__cat">
+          Start my trial
+        </button>
+      </div>
+      </p>
+    </div>
+    <div class="bottom"></div>
+  </main>
+</body>
+</html>
+  <!-- ʕ•ᴥ•ʔ -->
